@@ -28,7 +28,7 @@
     .section-catalogo{
         width: 100%;
         height: 45.25rem;
-        background-image: url(../assets/catalogo-home.jpg);
+        background-image: url(../assets/img/catalogo-home.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -62,7 +62,7 @@
         display: flex;
         width: 100%;
         height: 42.25rem;
-        background-image: url(../assets/news-home.jpg);
+        background-image: url(../assets/img/news-home.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         justify-content: center;
@@ -75,7 +75,7 @@
         display: flex;
         width: 100%;
         height: 42.25rem;
-        background-image: url(../assets/merch-home.jpg);
+        background-image: url(../assets/img/merch-home.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         justify-content: center;
@@ -87,4 +87,29 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    footer{
+        background-color: #13101C;
+        background-position: center;
+        text-align: center;
+        font-family: 'Saira', sans-serif;
+        font-size: 2.25rem;
+        color: #8F78E6;
+        list-style: none;
+    }
+    .footerizq{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: row;
+        padding-left: 1.875rem;
+    }
+    .footerder{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: end;
+        list-style: none;
+        margin-top: -5.9375rem;
+        padding-right: 1.875rem;
     }
