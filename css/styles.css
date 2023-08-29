@@ -12,6 +12,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #E5AFE3;
     }
     .navbar{
         background-color: #E5AFE3;
@@ -133,6 +134,20 @@
         display: flex;
         align-items: end;
         justify-content: center;
+    }
+    .text-center{
+        background-color: #13101C;
+        color: #FFD4FF;
+        font-family: 'Saira', sans-serif;
+        width: 20%;
+        margin-left: 1.25rem;
+    }
+    .card-text{
+        color: #FFD4FF;
+        font-family: 'Saira', sans-serif;
+    }
+    .card-body{
+        background-color: #13101C;
     }
     footer{
         background-color: #13101C;
