@@ -173,6 +173,121 @@
         margin-top: -5.9375rem;
         padding-right: 1.875rem;
     }
+    @media (max-width: 2560px){
+        .section-catalogo{
+            background-size: cover;
+            height: 47.8rem;
+        }
+        .section-news{
+            background-size: cover;
+            height: 32.8rem;
+            width: 100%;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 32.8rem;
+            width: 100%;
+        }
+        .flex-bandas1{
+            height: 40.15rem
+        }
+        .flex-bandas2{
+            height: 40.15rem
+        }
+        .flex-bandas3{
+            height: 40.15rem
+        }
+        .flex-bandas4{
+            height: 40.15rem
+        }
+        footer{
+            padding-top: 3.125rem;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center; 
+        }
+        .flex-item0{
+            width: 50%;
+        }
+        .flex-item1{
+            width: 50%;
+        }
+        .copyright{
+            width: 100%;
+        }
+        .flex-item0 a img{
+            width: 50%;
+        }
+        .flex-item1 a img{
+            width: 15%;
+        }
+    }
+    @media (max-width: 1440px){
+        .navbar{
+            font-size: 4rem;
+            gap: 2rem;
+        }
+        .section-catalogo{
+            background-size: cover;
+            height: 27.15rem;
+        }
+        .newsmerch{
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .section-news{
+            background-size: cover;
+            height: 23.15rem;
+            width: 50%;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 23.15rem;
+            width: 50%;
+        }
+        .flex-bandas1{
+            height: 22.15rem;
+        }
+        .flex-bandas2{
+            height: 22.15rem;
+        }
+        .flex-bandas3{
+            height: 22.15rem;
+        }
+        .flex-bandas4{
+            height: 22.15rem;
+        }
+        footer{
+            padding-top: 3.125rem;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center; 
+        }
+        .flex-item0{
+            width: 50%;
+        }
+        .flex-item1{
+            width: 50%;
+        }
+        .copyright{
+            width: 100%;
+        }
+        .flex-item0 a img{
+            width: 50%;
+        }
+        .flex-item1 a img{
+            width: 15%;
+        }
+    }
     @media(max-width: 1024px){
         header div a img{
             width: 100%;
@@ -256,6 +371,12 @@
             justify-content: center;
             align-items: center;
             align-content: center;
+        }
+        .flex-item0 a img{
+            width: 60%;
+        }
+        .flex-item1 a img{
+            width: 15%;
         }
     }
     @media(max-width: 425px){
@@ -342,5 +463,64 @@
         }
         .copyright{
             width: 100%;
+        }
+        .flex-item0 a img{
+            width: 60%;
+        }
+        .flex-item1 a img{
+            width: 15%;
+        }
+        }
+        @media (max-width:375px){
+            .navbar{
+                font-size: 1rem;
+                gap: .5rem;
+            }
+            footer{
+                font-size: 1rem;
+            }
+            .flex-item0 a img{
+                width: 60%;
+            }
+            .flex-item1 a img{
+                width: 15%;
+            }
+        }
+        @media (max-width: 320px){
+            header div a img{
+            width: 10rem;
+            margin-left: 0.15rem;
+        }
+        .navbar{
+            font-size: 1rem;
+            gap: .5rem;
+        }
+        .section-catalogo{
+            background-size: cover;
+            height: 13.15rem;
+            background-position: center;
+        }
+        .newsmerch{
+            flex-direction: column;
+            flex-wrap: wrap;
+            background-position: center;
+        }
+        .section-news{
+            background-size: cover;
+            height: 13.15rem;
+        }
+        .section-merch{
+            background-size: cover;
+            height: 13.15rem;
+            background-position: center;
+        }
+        footer{
+            font-size: 1rem;
+        }
+        .flex-item0 a img{
+            width: 65%;
+        }
+        .flex-item1 a img{
+            width: 15%;
         }
         }
